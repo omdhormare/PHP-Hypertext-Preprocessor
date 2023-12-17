@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html>
 <body align="center">
 <title>Customer Information</title>
-<form method="POST" action="s2.php">
+<form method="POST" action="B1.html">
   <hr>
   <h1>Customer Information</h1>
   <hr>

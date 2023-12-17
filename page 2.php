@@ -27,7 +27,7 @@ for ($i = 0; $i < count($a); $i++)
     echo("<td>" . $d[$i] . "</td>");
     $itemTotal = $c[$i] * $d[$i];
     echo("</tr>");
-    $total =$total+$itemTotal; 
+    $total =$total= $itemTotal; 
 }
 echo("</table>");
 echo("<h2 style='text-align: center; font-family: Bernard MT;'> Total Bill Amount : " . $total . "</h2>");

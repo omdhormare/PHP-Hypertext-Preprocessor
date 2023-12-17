@@ -1,6 +1,4 @@
 <?php
-
-// Sample associative arrays for testing
 $array1 = ["a" => 5, "b" => 2, "c" => 8, "d" => 1];
 $array2 = ["e" => 7, "f" => 3, "g" => 6, "h" => 4];
 

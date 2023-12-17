@@ -17,18 +17,9 @@ if (mysql_num_rows($result)>0)
 
     $_SESSION['userdata'] = $userdata;
     $_SESSION['groupsdata'] = $groupsdata;
+}
 
-    echo '<script>
-         window.location = "../project1/dash.php";
-         </script>';
-}
-else 
-{
-    echo '<script>
-         alert("User Not Found..."); 
-         window.location = "../";
-         </script>';
-}
+
 
 
 mysql_close($con);
